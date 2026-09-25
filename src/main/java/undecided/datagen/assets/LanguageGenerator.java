@@ -16,5 +16,7 @@ public class LanguageGenerator extends LanguageProvider {
         this.addItem(ModItems.MAGISTEEL_CLUSTER, "Magisteel Cluster");
         this.addItem(ModItems.WEAK_MAGISTEEL_INGOT, "Weak Magisteel Ingot");
         this.addItem(ModItems.REFINED_MAGISTEEL_INGOT, "Refined Magisteel Ingot");
+
+        this.add("itemGroup." + Undecided.MODID + ".items", "Undecided: Items");
     }
 }
