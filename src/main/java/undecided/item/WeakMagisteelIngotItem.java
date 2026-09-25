@@ -1,5 +1,6 @@
 package undecided.item;
 
+import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.attribute.EnvironmentAttributes;
 import net.minecraft.world.entity.item.ItemEntity;
@@ -24,7 +25,7 @@ public class WeakMagisteelIngotItem extends Item {
             return false;
         }
 
-        if (serverLevel.getServer().overworld().environmentAttributes().getDimensionValue(EnvironmentAttributes.MOON_PHASE) != MoonPhase.FULL_MOON) {
+        if (serverLevel.getServer().overworld().environmentAttributes().getValue(EnvironmentAttributes.MOON_PHASE, BlockPos.ZERO) != MoonPhase.FULL_MOON) {
             return false;
         }
 
