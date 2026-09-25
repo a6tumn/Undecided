@@ -6,7 +6,7 @@ import net.minecraft.client.data.models.ModelProvider;
 import net.minecraft.client.data.models.model.ModelTemplates;
 import net.minecraft.data.PackOutput;
 import undecided.Undecided;
-import undecided.init.ModItemsTwo;
+import undecided.init.ModItems;
 
 public class ModelGenerator extends ModelProvider {
     public ModelGenerator(PackOutput output) {
@@ -15,9 +15,9 @@ public class ModelGenerator extends ModelProvider {
 
     @Override
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
-        itemModels.generateFlatItem(ModItemsTwo.GELIN_CORE.get(), ModelTemplates.FLAT_ITEM);
-        itemModels.generateFlatItem(ModItemsTwo.MAGISTEEL_CLUSTER.get(), ModelTemplates.FLAT_ITEM);
-        itemModels.generateFlatItem(ModItemsTwo.WEAK_MAGISTEEL_INGOT.get(), ModelTemplates.FLAT_ITEM);
-        itemModels.generateFlatItem(ModItemsTwo.REFINED_MAGISTEEL_INGOT.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.GELIN_CORE.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.MAGISTEEL_CLUSTER.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.WEAK_MAGISTEEL_INGOT.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.REFINED_MAGISTEEL_INGOT.get(), ModelTemplates.FLAT_ITEM);
     }
 }

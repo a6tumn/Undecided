@@ -8,7 +8,7 @@ import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.ModContainer;
-import undecided.init.ModItemsTwo;
+import undecided.init.ModItems;
 
 @Mod(Undecided.MODID)
 public class Undecided {
@@ -20,6 +20,6 @@ public class Undecided {
     }
 
     public Undecided(IEventBus modEventBus, ModContainer modContainer) {
-        ModItemsTwo.ITEMS.register(modEventBus);
+        ModItems.ITEMS.register(modEventBus);
     }
 }

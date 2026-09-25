@@ -8,7 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.MoonPhase;
 import net.minecraft.world.level.block.Blocks;
-import undecided.init.ModItemsTwo;
+import undecided.init.ModItems;
 
 public class WeakMagisteelIngotItem extends Item {
     public WeakMagisteelIngotItem(Properties properties) {
@@ -29,7 +29,7 @@ public class WeakMagisteelIngotItem extends Item {
             return false;
         }
 
-        entity.setItem(stack.transmuteCopy(ModItemsTwo.REFINED_MAGISTEEL_INGOT.get()));
+        entity.setItem(stack.transmuteCopy(ModItems.REFINED_MAGISTEEL_INGOT.get()));
         return true;
     }
 }

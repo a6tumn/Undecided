@@ -3,7 +3,7 @@ package undecided.datagen.assets;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 import undecided.Undecided;
-import undecided.init.ModItemsTwo;
+import undecided.init.ModItems;
 
 public class LanguageGenerator extends LanguageProvider {
     public LanguageGenerator(PackOutput output) {
@@ -12,9 +12,9 @@ public class LanguageGenerator extends LanguageProvider {
 
     @Override
     protected void addTranslations() {
-        this.addItem(ModItemsTwo.GELIN_CORE, "Gelin Core");
-        this.addItem(ModItemsTwo.MAGISTEEL_CLUSTER, "Magisteel Cluster");
-        this.addItem(ModItemsTwo.WEAK_MAGISTEEL_INGOT, "Weak Magisteel Ingot");
-        this.addItem(ModItemsTwo.REFINED_MAGISTEEL_INGOT, "Refined Magisteel Ingot");
+        this.addItem(ModItems.GELIN_CORE, "Gelin Core");
+        this.addItem(ModItems.MAGISTEEL_CLUSTER, "Magisteel Cluster");
+        this.addItem(ModItems.WEAK_MAGISTEEL_INGOT, "Weak Magisteel Ingot");
+        this.addItem(ModItems.REFINED_MAGISTEEL_INGOT, "Refined Magisteel Ingot");
     }
 }
