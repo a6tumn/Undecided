@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package undecided;
 
 import org.slf4j.Logger;
 
@@ -8,11 +8,11 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.ModContainer;
 
-@Mod(undecided.MODID)
-public class undecided {
+@Mod(Undecided.MODID)
+public class Undecided {
     public static final String MODID = "undecided";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public undecided(IEventBus modEventBus, ModContainer modContainer) {
+    public Undecided(IEventBus modEventBus, ModContainer modContainer) {
     }
 }
