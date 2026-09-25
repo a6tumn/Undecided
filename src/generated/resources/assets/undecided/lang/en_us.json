@@ -1,7 +1,6 @@
 {
   "item.undecided.gelin_core": "Gelin Core",
   "item.undecided.magisteel_cluster": "Magisteel Cluster",
-  "item.undecided.refined_magisteel_ingot": "Refined Magisteel Ingot",
-  "item.undecided.weak_magisteel_ingot": "Weak Magisteel Ingot",
+  "item.undecided.magisteel_ingot": "Magisteel Ingot",
   "itemGroup.undecided.items": "Undecided: Items"
 }

@@ -18,8 +18,7 @@ public final class ModCreativeModeTabs {
         .displayItems((_, output) -> {
             output.accept(ModItems.GELIN_CORE);
             output.accept(ModItems.MAGISTEEL_CLUSTER);
-            output.accept(ModItems.WEAK_MAGISTEEL_INGOT);
-            output.accept(ModItems.REFINED_MAGISTEEL_INGOT);
+            output.accept(ModItems.MAGISTEEL_INGOT);
         })
         .build()
     );

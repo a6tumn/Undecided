@@ -8,10 +8,10 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.MoonPhase;
 import net.minecraft.world.level.block.Blocks;
-import undecided.init.ModItems;
+import undecided.init.ModDataComponentTypes;
 
-public class WeakMagisteelIngotItem extends Item {
-    public WeakMagisteelIngotItem(Properties properties) {
+public class MagisteelIngotItem extends Item {
+    public MagisteelIngotItem(Properties properties) {
         super(properties);
     }
 
@@ -29,7 +29,13 @@ public class WeakMagisteelIngotItem extends Item {
             return false;
         }
 
-        entity.setItem(stack.transmuteCopy(ModItems.REFINED_MAGISTEEL_INGOT.get()));
+        if (Boolean.TRUE.equals(stack.get(ModDataComponentTypes.MAGISTEEL_REFINED.get()))) {
+            return false;
+        }
+
+        ItemStack refined = stack.copy();
+        refined.set(ModDataComponentTypes.MAGISTEEL_REFINED.get(), true);
+        entity.setItem(refined);
         return true;
     }
 }

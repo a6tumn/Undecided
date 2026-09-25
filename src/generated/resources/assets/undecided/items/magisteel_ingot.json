@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "undecided:item/magisteel_ingot"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "undecided:item/magisteel_ingot_refined"
+    },
+    "property": "undecided:refined"
+  }
+}
