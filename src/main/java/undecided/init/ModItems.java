@@ -11,7 +11,7 @@ import undecided.item.WeakMagisteelIngotItem;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-public final class ModItemsTwo {
+public final class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Undecided.MODID);
 
     public static final DeferredItem<Item> GELIN_CORE = register("gelin_core", Item::new, Item.Properties::new);
