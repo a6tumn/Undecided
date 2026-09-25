@@ -22,4 +22,14 @@ public final class ModCreativeModeTabs {
         })
         .build()
     );
+    public static final Supplier<CreativeModeTab> BLOCKS = CREATIVE_MODE_TABS.register("blocks", () -> CreativeModeTab.builder()
+            .title(Component.translatable("blockGroup." + Undecided.MODID + ".blocks"))
+            .icon(() -> new ItemStack(ModBlocks.CHISELED_HYDROLITH_BRICKS.get()))
+            .displayItems((_, output) -> {
+                output.accept(ModBlocks.HYDROLITH_BRICKS);
+                output.accept(ModBlocks.HYDROLITH_MOSAIC);
+                output.accept(ModBlocks.CHISELED_HYDROLITH_BRICKS);
+            })
+            .build()
+    );
 }

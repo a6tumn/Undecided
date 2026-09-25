@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+		{"model": "undecided:block/hydrolith_mosaic0", "weight": 6},
+		{"model": "undecided:block/hydrolith_mosaic1", "weight": 2},
+		{"model": "undecided:block/hydrolith_mosaic2", "weight": 2},
+		{"model": "undecided:block/hydrolith_mosaic3", "weight": 2},
+		{"model": "undecided:block/hydrolith_mosaic4", "weight": 2},
+		{"model": "undecided:block/hydrolith_mosaic5", "weight": 1}
+    ]
+  }
+}

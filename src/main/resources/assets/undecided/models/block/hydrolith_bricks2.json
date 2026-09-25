@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "undecided:block/hydrolith_bricks2"
+  }
+}
