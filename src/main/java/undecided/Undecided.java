@@ -24,7 +24,7 @@ public class Undecided {
 
     public Undecided(IEventBus modEventBus, ModContainer modContainer) {
         ModItems.ITEMS.register(modEventBus);
-        ModBlocks.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
         ModCreativeModeTabs.CREATIVE_MODE_TABS.register(modEventBus);
         ModDataComponentTypes.DATA_COMPONENT_TYPES.register(modEventBus);
     }

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "undecided:block/hydrolith_bricks0"
+      },
+      {
+        "model": "undecided:block/hydrolith_bricks1"
+      },
+      {
+        "model": "undecided:block/hydrolith_bricks2"
+      },
+      {
+        "model": "undecided:block/hydrolith_bricks3"
+      }
+    ]
+  }
+}

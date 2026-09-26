@@ -1,10 +1,10 @@
 {
+  "block.undecided.chiseled_hydrolith_bricks": "Chiseled Hydrolith Bricks",
+  "block.undecided.hydrolith_bricks": "Hydrolith Bricks",
+  "block.undecided.hydrolith_mosaic": "Hydrolith Mosaic",
   "item.undecided.gelin_core": "Gelin Core",
   "item.undecided.magisteel_cluster": "Magisteel Cluster",
   "item.undecided.magisteel_ingot": "Magisteel Ingot",
-  "block.undecided.hydrolith_bricks": "Hydrolith Bricks",
-  "block.undecided.hydrolith_mosaic": "Hydrolith Mosaic",
-  "block.undecided.chiseled_hydrolith_bricks": "Chiseled Hydrolith Bricks",
-  "itemGroup.undecided.items": "Undecided: Items",
-  "blockGroup.undecided.blocks": "Undecided: Blocks"
+  "itemGroup.undecided.blocks": "Undecided: Blocks",
+  "itemGroup.undecided.items": "Undecided: Items"
 }

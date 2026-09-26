@@ -20,7 +20,8 @@ public class LanguageGenerator extends LanguageProvider {
         this.addBlock(ModBlocks.HYDROLITH_BRICKS, "Hydrolith Bricks");
         this.addBlock(ModBlocks.HYDROLITH_MOSAIC, "Hydrolith Mosaic");
         this.addBlock(ModBlocks.CHISELED_HYDROLITH_BRICKS, "Chiseled Hydrolith Bricks");
+
         this.add("itemGroup." + Undecided.MODID + ".items", "Undecided: Items");
-        this.add("blockGroup." + Undecided.MODID + ".blocks", "Undecided: Blocks");
+        this.add("itemGroup." + Undecided.MODID + ".blocks", "Undecided: Blocks");
     }
 }
