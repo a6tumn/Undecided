@@ -16,6 +16,7 @@ public class LanguageGenerator extends LanguageProvider {
         this.addItem(ModItems.GELIN_CORE, "Gelin Core");
         this.addItem(ModItems.MAGISTEEL_CLUSTER, "Magisteel Cluster");
         this.addItem(ModItems.MAGISTEEL_INGOT, "Magisteel Ingot");
+        this.add("item." + Undecided.MODID + ".magisteel_ingot.refined", "Its raw power causes you to tremble in fear...");
 
         this.addBlock(ModBlocks.HYDROLITH_BRICKS, "Hydrolith Bricks");
         this.addBlock(ModBlocks.HYDROLITH_MOSAIC, "Hydrolith Mosaic");
